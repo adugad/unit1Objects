@@ -1,0 +1,79 @@
+import java.awt.Color;
+
+public class TurtleLab
+{
+    public static void main(String[] args)
+    {
+        World turtleWorld = new World();
+        Turtle turtle = new Turtle(turtleWorld);
+        Turtle turtle2 = new Turtle(turtleWorld);
+        turtle.setPenColor(Color.RED);
+        turtle2.setPenColor(Color.CYAN);
+        turtle.penUp();
+        turtle.backward();
+        turtle.turnLeft();
+        turtle.forward();
+        turtle.penDown();
+        turtle.turnRight();
+        turtle.turn(20.0);
+        turtle.forward(300);
+        turtle.turn(144.0);
+        turtle.forward(300);
+        turtle.turn(144.0);
+        turtle.forward(300);
+        turtle.turn(144.0);
+        turtle.forward(300);
+        turtle.turn(144.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+        turtle.turn(140.0);
+        turtle.forward(300);
+    }
+}
