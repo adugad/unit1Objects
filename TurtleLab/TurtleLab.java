@@ -9,6 +9,8 @@ public class TurtleLab
         Turtle turtle2 = new Turtle(turtleWorld);
         turtle.setPenColor(Color.RED);
         turtle2.setPenColor(Color.CYAN);
+        turtle.setPenWidth(5);
+        turtle2.setPenWidth(5);
         turtle.penUp();
         turtle.backward();
         turtle.turnLeft();
@@ -75,5 +77,33 @@ public class TurtleLab
         turtle.forward(300);
         turtle.turn(140.0);
         turtle.forward(300);
+        turtle.hide();
+        turtle2.penUp();
+        turtle2.turn(330);
+        turtle2.forward(300);
+        turtle2.turn(300);
+        turtle2.penDown();
+        turtle2.forward();
+        turtle2.turn(270);
+        turtle2.forward();
+        turtle2.turn(270);
+        turtle2.forward();
+        turtle2.turn(90);
+        turtle2.forward();
+        turtle2.turn(90);
+        turtle2.forward();
+        turtle2.turn(270);
+        turtle2.forward();
+        turtle2.turn(270);
+        turtle2.forward();
+        turtle2.turn(90);
+        turtle2.forward();
+        turtle2.turn(90);
+        turtle2.forward();
+        turtle2.turn(270);
+        turtle2.forward();
+        turtle2.hide();
+        Picture pic = new Picture("sunset3.jpg");
+        turtleWorld.setPicture(pic);
     }
 }
